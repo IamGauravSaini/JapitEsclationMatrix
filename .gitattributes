@@ -1,0 +1,31 @@
+# Set the line endings for JavaScript and JSON files to LF
+*.js text eol=lf
+*.json text eol=lf
+*.css text eol=lf
+*.dart text eol=lf
+*.json text eol=lf
+*.yaml text eol=lf
+
+
+# Exclude specific directories from line ending normalization
+/dist/** -text
+/node_modules/** -text
+/build/** -text
+
+
+# Set all shell script files to have executable permissions
+*.sh   eol=lf text eol=lf
+*.sh eol=lf text eol=lf
+
+# Declare certain files as binary
+*.png binary
+*.jpg binary
+*.gif binary
+
+# Ignore changes to package-lock.json
+package-lock.json binary
+yarn.lock binary
+
+# Ignore changes to .flutter-plugins and .flutter-plugins-dependencies
+.flutter-plugins binary
+.flutter-plugins-dependencies binary
