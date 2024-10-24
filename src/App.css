@@ -1,0 +1,68 @@
+.app {
+  /* display: grid;
+  grid-template-rows: 80px auto; */
+  margin: auto;
+  padding: auto;
+  height: 100vh;
+  max-width: 1980px;
+  max-height: 1024px;
+  background-position: center top 18%;
+  background-image: url(https://japit.in/wp-content/uploads/2024/08/Background_First.png) !important;
+}
+
+.app_main {
+  display: flex;
+  /* justify-content: space-evenly; */
+  padding: 0 0%;
+  margin: 20px 20px 0 20px;
+  /* this is to target the css of the last column */
+  section:last-child div {
+    border-color: red;
+  }
+}
+
+.task_column {
+  /* width: 16%; */
+  width: 50%;
+  margin: 5px;
+}
+.app_header {
+  height: 10%;
+  max-height: 100px;
+  h1 {
+    font-size: 1rem;
+    background: linear-gradient(45deg, #82dbf7 0%, #b6f09c 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
+.app_Footer_SubmitBtton_Container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.app_Submit {
+  /* max-width: 105px; */
+  /* right: -50%; */
+  border: none;
+  background-color: rgba(182, 240, 156, 1);
+  margin: 15px 10px;
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-weight: bold;
+}
+
+.app_Submit:hover {
+  background-color: rgba(92, 186, 76, 1) !important;
+}
+
+.delete_column {
+  width: 33.33%;
+  min-width: 200px;
+  margin: 5px;
+}
+
+.Japit_Icon_Image {
+  position: fixed;
+  left: 4%;
+}
